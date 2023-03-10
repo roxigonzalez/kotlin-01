@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Homework Login</string>
+    <string name="type_email">Type your email</string>
+    <string name="name_dev">Roxana González</string>
+    <string name="software_developer">Software Developer</string>
+    <string name="email">Email</string>
+    <string name="message">Message</string>
+    <string name="write_what_you_need">Write what you need</string>
+    <string name="enviar">Send</string>
+    <string name="your_message_has_been_sent_thanks">Your message has been sent! Thanks.</string>
+</resources>

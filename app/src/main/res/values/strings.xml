@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Homework Login</string>
+    <string name="type_email">Escriba su email</string>
+    <string name="name_dev">Roxana González</string>
+    <string name="software_developer">Software Developer</string>
+    <string name="email">Correo electrónico</string>
+    <string name="message">Mensaje</string>
+    <string name="write_what_you_need">Cuentame algo</string>
+    <string name="enviar">Enviar</string>
+    <string name="your_message_has_been_sent_thanks" >Su mensaje ha sido enviado, gracias!</string>
 </resources>
