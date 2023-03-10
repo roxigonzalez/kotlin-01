@@ -20,14 +20,14 @@ class LoginActivity : AppCompatActivity() {
         listenEvent()
 
     }
-    private fun bind() {
+    fun bind() {
         // code to get email and message from ID
         mEmailText = findViewById(R.id.text_email)
         mMessageText = findViewById(R.id.text_message)
         mSendButton = findViewById(R.id.button_send)
     }
-    private fun listenEvent() {
-        mSendButton.setOnClickListener {
+    fun listenEvent() {
+        mSendButton.setOnClickListener { _ ->
             // code to send data somewhere :) then start activity of message
             val email = mEmailText.text.toString()
             val message= mMessageText.text.toString()
@@ -40,7 +40,7 @@ class LoginActivity : AppCompatActivity() {
             }
         }
     }
-    private fun basicAlert(){
+    fun basicAlert(){
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Errors")
         builder.setMessage("Please, fill the information")
