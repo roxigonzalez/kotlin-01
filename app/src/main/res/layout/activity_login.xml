@@ -9,11 +9,13 @@
     tools:context=".LoginActivity">
     <ImageView
         android:scaleType="centerInside"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:src="@drawable/profile2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/profile"
         android:layout_margin="16dp"
         android:id="@+id/image_login"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="10dp"
         />
     <TextView
         style="@style/TextAppearance.AppCompat.Headline"
@@ -43,6 +45,7 @@
         android:text="@string/email"/>
     <EditText
         android:id="@+id/text_email"
+        android:inputType="textEmailAddress"
         style="@style/ThemeOverlay.Material3.TextInputEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -60,7 +63,7 @@
         android:id="@+id/text_message"
         style="@style/ThemeOverlay.Material3.TextInputEditText"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="170dp"
         android:textAlignment="textStart"
         android:inputType="text|textMultiLine"
         android:gravity="start"
@@ -69,6 +72,6 @@
         android:id="@+id/button_send"
         android:layout_width="200dp"
         android:layout_gravity="center"
-        android:layout_height="wrap_content" android:text="@string/enviar" />
+        android:layout_height="wrap_content" android:text="@string/send" />
 
 </LinearLayout>

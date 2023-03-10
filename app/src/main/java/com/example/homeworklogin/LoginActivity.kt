@@ -42,9 +42,9 @@ class LoginActivity : AppCompatActivity() {
     }
     fun basicAlert(){
         val builder = AlertDialog.Builder(this)
-        builder.setTitle("Errors")
-        builder.setMessage("Please, fill the information")
-        builder.setPositiveButton("OK", null);
+        builder.setTitle(getString(R.string.Error))
+        builder.setMessage(getString(R.string.fill_info))
+        builder.setPositiveButton("Ok", null);
         builder.show()
     }
 }

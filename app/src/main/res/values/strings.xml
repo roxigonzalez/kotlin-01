@@ -6,6 +6,8 @@
     <string name="email">Correo electrónico</string>
     <string name="message">Mensaje</string>
     <string name="write_what_you_need">Cuentame algo</string>
-    <string name="enviar">Enviar</string>
+    <string name="send">Enviar</string>
     <string name="your_message_has_been_sent_thanks" >Su mensaje ha sido enviado, gracias!</string>
+    <string name="Error">Error</string>
+    <string name="fill_info">Por favor, llena la información</string>
 </resources>
